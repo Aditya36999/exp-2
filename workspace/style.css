@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.balance {
+  font-size: 24px;
+  color: green;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.deposit {
+  background-color: #28a745;
+  color: white;
+}
+
+.deposit:hover {
+  background-color: #218838;
+}
+
+.withdraw {
+  background-color: #dc3545;
+  color: white;
+}
+
+.withdraw:hover {
+  background-color: #c82333;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+  .card {
+    padding: 20px 15px;
+  }
+
+  .balance {
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
