@@ -30,14 +30,31 @@ body {
 .balance {
   font-size: 24px;
   color: green;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   font-weight: bold;
 }
 
-.btn {
+input[type="number"] {
   width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.button-group .btn {
+  flex: 1;
+}
+
+.btn {
   padding: 12px;
-  margin: 10px 0;
   font-size: 16px;
   border: none;
   border-radius: 6px;
@@ -63,7 +80,22 @@ body {
   background-color: #c82333;
 }
 
-/* Responsive Design */
+.update {
+  background-color: #007bff;
+  color: white;
+  width: 100%;
+}
+
+.update:hover {
+  background-color: #0069d9;
+}
+
+.btn.active {
+  box-shadow: 0 0 0 2px #33333322;
+  font-weight: bold;
+}
+
+/* Responsive */
 @media (max-width: 500px) {
   .card {
     padding: 20px 15px;
