@@ -1,0 +1,20 @@
+💼 Responsive Banking UI
+A simple and responsive banking user interface built with HTML, CSS, and JavaScript. This project simulates basic banking operations such as depositing and withdrawing funds, and displays the current balance dynamically.
+
+🔧 Features
+💰 Live Balance Display – Real-time updates as you deposit or withdraw.
+
+🔢 Input Field – Enter any amount you wish to deposit or withdraw.
+
+🔁 Action Toggle – Easily switch between "Deposit" and "Withdraw" actions.
+
+📱 Responsive Design – Fully adaptable for mobile, tablet, and desktop.
+
+🧠 User-Friendly Interface – Clean, intuitive, and accessible layout.
+
+🛠️ Built With
+HTML – Markup structure
+
+CSS – Responsive, modern styling
+
+JavaScript – Logic to update balance and handle user input
