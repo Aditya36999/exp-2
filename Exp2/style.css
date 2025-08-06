@@ -95,7 +95,6 @@ input[type="number"] {
   font-weight: bold;
 }
 
-/* Responsive */
 @media (max-width: 500px) {
   .card {
     padding: 20px 15px;
